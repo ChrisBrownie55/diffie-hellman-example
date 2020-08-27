@@ -1,0 +1,48 @@
+{
+  "name": "diffie-hellman-example",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "watch": "nodemon --ignore public",
+    "format": "prettier -w **/*.{js,html,css}"
+  },
+  "dependencies": {
+    "@supercharge/request-ip": "^1.1.2",
+    "chalk": "^4.1.0",
+    "connect-livereload": "^0.6.1",
+    "cookie-parser": "~1.4.4",
+    "diffie-hellman": "^5.0.3",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "ky": "^0.23.0",
+    "livereload": "^0.9.1",
+    "morgan": "~1.9.1",
+    "node-sass-middleware": "0.11.0",
+    "pug": "2.0.0-beta11",
+    "xstate": "^4.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "prettier": "^2.1.1",
+    "rollup": "^2.26.6"
+  },
+  "prettier": {
+    "arrowParens": "avoid",
+    "bracketSpacing": false,
+    "htmlWhitespaceSensitivity": "css",
+    "insertPragma": false,
+    "jsxBracketSameLine": false,
+    "jsxSingleQuote": false,
+    "printWidth": 80,
+    "proseWrap": "preserve",
+    "quoteProps": "as-needed",
+    "requirePragma": false,
+    "semi": true,
+    "singleQuote": true,
+    "tabWidth": 2,
+    "trailingComma": "all",
+    "useTabs": true,
+    "vueIndentScriptAndStyle": false
+  }
+}
