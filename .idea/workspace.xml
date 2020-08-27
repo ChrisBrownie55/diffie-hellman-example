@@ -28,6 +28,11 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Christopher\Workspace\diffie-hellman-example" />
+    </key>
+  </component>
   <component name="RunManager" selected="npm.format">
     <configuration name="format" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
@@ -54,7 +59,7 @@
       <option name="presentableId" value="Default" />
       <updated>1598384248190</updated>
       <workItem from="1598384249216" duration="29146000" />
-      <workItem from="1598490944255" duration="4414000" />
+      <workItem from="1598490944255" duration="5318000" />
     </task>
     <servers />
   </component>
@@ -62,6 +67,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="470" y="254" key="#Markdown" timestamp="1598571255778">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="470" y="254" key="#Markdown/0.0.1280.720@0.0.1280.720" timestamp="1598571255778" />
     <state x="481" y="52" width="383" height="617" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1598570573446">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
