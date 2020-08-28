@@ -1,9 +1,16 @@
-
+import resolve from '@rollup/plugin-node-resolve';
+import commonjs from '@rollup/plugin-commonjs';
+import json from '@rollup/plugin-json';
 
 export default {
-	input: 'src/main.js',
+	input: 'public/javascripts/main.js',
 	output: {
-		file: 'bundle.js',
-		format: 'cjs'
-	}
+		file: 'public/javascripts/bundle.js',
+		format: 'esm'
+	},
+	plugins: [
+		commonjs(),
+		resolve(),
+		json(),
+	],
 };

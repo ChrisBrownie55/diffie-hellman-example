@@ -23,6 +23,9 @@
     "xstate": "^4.12.0"
   },
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^15.0.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^9.0.0",
     "nodemon": "^2.0.4",
     "prettier": "^2.1.1",
     "rollup": "^2.26.6"

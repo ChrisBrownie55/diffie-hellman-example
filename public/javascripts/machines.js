@@ -1,6 +1,6 @@
 import ky from 'ky';
 import {Machine, assign} from 'xstate';
-import {DiffieHellman} from 'diffie-hellman';
+import {DiffieHellman} from 'diffie-hellman/browser';
 
 function establishConnection() {
 	return ky.get('/establish-connection').json();
